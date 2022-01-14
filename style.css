@@ -1,0 +1,38 @@
+/*Noughts & Crosses CSS File 
+    author(Joshua Thomas)
+    date(10.01.2022)
+    version:1.0
+*/
+
+.body-background{
+    background: linear-gradient(to left, #1f1f1f, #ffffff)
+}
+
+.title-name{
+    text-align:center;
+    font-size:50px;
+}
+
+#result{
+    text-align:center;
+    font-size:50px
+}
+
+.container{
+    background-color:black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin:0px auto;
+    padding: 10px;
+    width:270px;
+}
+
+.item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0,0,0,0.8);
+    width:50px;
+    height:25px;
+    padding:19px;
+    font-size:30px;
+    text-align:center;
+}
